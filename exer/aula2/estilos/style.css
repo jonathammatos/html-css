@@ -1,0 +1,21 @@
+body {
+  background-color: #232323;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 1rem 2rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.125rem;
+}
+
+.gallery > img {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(25% - 0.125rem);
+  max-height: 12rem;
+  object-fit: cover;
+  margin: 0 auto;
+}
