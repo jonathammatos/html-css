@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pramiry-color: #2c2c2f;
+  --second-color: #fffffe;
+  --third-color: #30d4ab;
+}
+
+.page-container {
+  background-color: var(--pramiry-color);
+  color: var(--second-color);
+
+  display: grid;
+  grid-template-columns: 300px, 1fr;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.page-container a {
+  text-decoration: none;
+  color: var(--third-color);
+}
