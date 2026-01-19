@@ -7,7 +7,7 @@
 }
 
 :root {
-    --pramiry-color: #4c6daf;
+    --primary-color: #4c6daf;
     --second-color: #e0e0e0;
     --third-color: #ccc;
     --fourth-color: #2c2c2d;
@@ -31,7 +31,7 @@ body {
 
 header {
     grid-area: header;
-    background-color: var(--pramiry-color);
+    background-color: var(--primary-color);
     color: var(--fifth-color);
     font-size: 1.5rem;
     font-weight: 700;
