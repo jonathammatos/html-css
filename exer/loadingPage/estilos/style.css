@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #6c63ff;
+  --background-white: #ffffff;
+  --background-light: #e0e0e0;
+  --background-black: #070707;
+  --background-dark: #2c2c2c;
+}
