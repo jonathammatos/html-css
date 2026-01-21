@@ -129,8 +129,14 @@ body {
   gap: 3rem;
 }
 
-.newsletter-image img {
+.newsletter-image {
   width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter-image > img {
+  width: 300px;
   height: 250px;
 }
 
@@ -244,4 +250,7 @@ body {
   .form-group input::placeholder {
     color: #dacdcd;
   }
+}
+
+@media screen and (min-width: 48rem) {
 }
