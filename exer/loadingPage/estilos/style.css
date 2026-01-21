@@ -272,4 +272,57 @@ body {
   .speaker-card img {
     width: fit-content;
   }
+
+  .schedule {
+    padding: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .schedule-grid {
+    display: grid;
+    grid-template-areas: "item1 item2" "item3 item4";
+    gap: 2rem;
+  }
+
+  .schedule-item {
+    padding: 2rem;
+  }
+
+  .schedule h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .newsletter {
+    display: flex;
+    width: 40%;
+  }
+
+  .newsletter-text {
+    display: block;
+    text-align: left;
+  }
+
+  .newsletter-form {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .form-group input {
+    width: 35vw;
+    font-size: 1.25rem;
+  }
+
+  .newsletter-image > img {
+    width: 300px;
+    height: 40vh;
+  }
+
+  .newsletter-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .footer p {
+    font-size: 1.75rem;
+  }
 }
