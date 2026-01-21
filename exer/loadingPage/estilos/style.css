@@ -253,4 +253,23 @@ body {
 }
 
 @media screen and (min-width: 48rem) {
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .speakers h2 {
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
+
+  .speaker-card {
+    padding: 2.5rem 2rem;
+    border-radius: 15px;
+    font-size: 1.25rem;
+  }
+
+  .speaker-card img {
+    width: fit-content;
+  }
 }
