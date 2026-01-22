@@ -74,7 +74,7 @@ body {
 
 .speakers h2 {
   font-size: 2rem;
-  margin-bottom:;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -98,15 +98,6 @@ body {
   margin-bottom: 1.5rem;
   max-width: 10rem;
   width: 100%;
-}
-
-.speaker-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.75rem;
-}
-
-.newsletter-image img {
-  max-width: 100%;
 }
 
 .speaker-card h3 {
